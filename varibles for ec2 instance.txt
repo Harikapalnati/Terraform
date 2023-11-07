@@ -1,0 +1,18 @@
+
+variable "ami_id_mumbai" {
+    description = "ami id"
+    type = string
+    default = "ami-0287a05f0ef0e9d9a"
+  
+}
+variable "ami_id_hyderabad" {
+    description = "ami id"
+    type = string
+    default = "ami-06fe902e167e67d33"
+  
+}
+variable "instance_type" {
+  description = "Ec2 instance"
+  type        = string
+  default     = "t3.micro"
+}
